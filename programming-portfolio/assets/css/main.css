@@ -208,7 +208,7 @@ input, select, textarea {
 		background: #f7f7f7;
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
-		font-family: "Courier New", monospace;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -216,7 +216,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1914,7 +1914,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+		font-family: 'Open Sans', sans-serif;
 				font-weight: 900;
 			}
 
@@ -2024,6 +2024,7 @@ input, select, textarea {
 
 		.icon:before {
 			line-height: inherit;
+			
 		}
 
 		.icon.solid:before {
@@ -2593,11 +2594,11 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/pexels-photo-997125.jpeg"), url("../../images/bg.jpg");
+		background-image: url("images/bg3.jpeg"), url("../../images/bg3.jpeg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		background-size: auto,								170%;
+		color: rgb(255, 255, 255);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2633,15 +2634,15 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.6);
+			color: rgb(255, 255, 255);
 			font-size: 1.35em;
-			line-height: 1.75em;
+			line-height: 1.85em;
 			margin: 0;
 		}
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 8.25em;
 		}
 
 /* Footer */
@@ -3004,6 +3005,7 @@ input, select, textarea {
 
 				#header h1 {
 					font-size: 1.25em;
+					
 				}
 
 					#header h1 br {
@@ -3203,6 +3205,19 @@ input, select, textarea {
 
 			#header {
 				padding: 4.5em 1.5em;
+				background-attachment: scroll,								scroll;
+				background-image: url("images/bg3.jpeg"), url("../../images/bg3.jpeg");
+				background-position: top left,							top left;
+				background-repeat: repeat,								no-repeat;
+				background-size: auto,								100%;
+
+			}
+			#header h1 {
+				color: rgb(255, 255, 255);
+				/* background-color: #808c94; */
+				font-size: 1.35em;
+				font-weight: bold;
+				line-height: 1.85em;
 			}
 
 				#header h1 br {
