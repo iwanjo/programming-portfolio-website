@@ -97,7 +97,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #5f5b5b;
+		color: #221c1c;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -2049,7 +2049,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("./images/pexels-photo-997125.jpeg");
+			/* background: url("./images/pexels-photo-997125.jpeg"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2071,8 +2071,8 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
+				border: solid 3px #221c1c;
+				color: rgb(43, 31, 31);
 				content: 'View';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2094,7 +2094,7 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/pexels-photo-997125.jpeg"), url("images/pexels-photo-997125.jpeg");
+				/* background: url("images/pexels-photo-997125.jpeg"), url("images/pexels-photo-997125.jpeg"); */
 				opacity: 1.0;
 			}
 
@@ -2555,7 +2555,7 @@ input, select, textarea {
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0 4em 0;
 	}
 
 		.work-item .image {
@@ -3223,6 +3223,7 @@ input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
+				
 
 		/* Footer */
 
@@ -3233,5 +3234,34 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+			.header-img{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				
+			}
 
+	}
+
+	.header-img{
+		height: 40vh;
+		margin-bottom: 1.3rem;
+	}
+
+	.button-group button{
+		margin-left: -1.9%;
+		padding-bottom: 2.4rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		font-size: 15px;
+		letter-spacing: .08rem;
+		color: #092131;
+		outline: none;
+		border: none;
+		background-color: white;
+		cursor: pointer;
+	}
+
+	.button-group button:hover{
+		color: #7F7FD5;
 	}

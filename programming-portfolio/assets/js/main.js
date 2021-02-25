@@ -116,3 +116,25 @@
 			});
 
 })(jQuery);
+
+
+$(document).ready(function(){
+	let $btns = $("#two .button-group button");
+	$btns.click(function(e){
+		$("#two .button-group button").removeClass("active");
+		e.target.classList.add("active");
+
+		let selector = $(e.target).attr("data-filter");
+		$("#two .row").isotope({
+			filter:selector
+		});
+
+		return false;
+	})
+
+	$("#two .button-group #allBtn").trigger("click")
+
+	$("$two .button-group .test-popup-link").magnificPopup({
+		type: 'image'
+	});
+})

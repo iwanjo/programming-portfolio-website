@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="./images/logo.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"></link>
 	</head>
 	<body class="is-preload">
 
@@ -26,95 +27,102 @@
 					<section id="one">
 						<header class="major">
 							<h2>Welcome to My Development Portfolio<br />
-							Here I will tell you about my journey in Computer Science and showcase the projects I have worked on so far in my career</h2>
+							</h2>
+							<h2>About Me</h2>
+							<!-- <img src="./images/i2.jpg" alt="Ian Wanjohi at a park bench adjacent to the Kigali Conference Center" class="header-img"> -->
+
 						</header>
-						<p>Results-oriented software engineer with 2+ years of experience in designing and developing interactive, data-driven, and user-centred applications. Eager to leverage a proven knowledge of problem-solving, UX/UI Design, software development, and a team-centric approach to improve organizational efficiency and enhance data-driven decision making in start-ups, SME's and large organizations.		
+						<p>I am a results-oriented software engineer with 2+ years of experience in designing and developing interactive, data-driven, and user-centred applications. I am eager to leverage a proven knowledge of software development, problem-solving, UX/UI Design, and a team-centric approach to improve organizational efficiency and enhance data-driven decision making in start-ups, SME's and large organizations.		
 
 							<br><br>Tech Stack: HTML | CSS | JavaScript | Python | C | Flutter | Java | 
-							
-							<br><br>Frameworks: React | NextJS | Bootstrap | Django | Node
+							<br><br>Cloud Engineering: AWS | Docker | Kubernetes | Virtualization | Automization | DevOps | 
+							<br><br>Frameworks: Tailwind CSS| React | NextJS | Bootstrap | Django | Node
 							<br><br>Databases: Firebase | MongoDB | MySQL | PostgreSQL 
 
 						</p>
 
 
 						<ul class="actions">
-							<li><a href="./IanKamanuResume.pdf" class="button" download="" target="_blank">Download Resume</a></li>
+							<li><a href="./IanKamanuResume.pdf" class="button icon solid fa-download" download="" target="_blank">Download Resume</a></li>
 						</ul>
 					</section>
 
 				<!-- Two -->
 					<section id="two">
 						<h2>My Recent Work</h2>
+
+						<div class="button-group">
+							<button type="button" class="active" id="allBtn" data-filter="*">All</button>
+							<button type="button" data-filter=".web">Web</button>
+							<button type="button" data-filter=".mobile">Mobile</button>
+							<!-- <button type="button" data-filter=".desktop">Desktop</button> -->
+						</div>
+
 						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
+							<article class="col-6 col-12-xsmall work-item web">
 								<a href="images/fulls/africaexplored.PNG" class="image fit thumb"><img src="images/fulls/africaexplored.PNG" alt="" /></a>
 								<h3>AfricaExplored</h3>
 								<h3><a href="https://africaexplored.000webhostapp.com/" target="_blank">Click Here</a></h3>
 								<p>AfricaExplored is a travelling and touring web application which enables its users to explore Africa’s hidden gems while immersing themselves in the local community</p>
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/learn.io.png" class="image fit thumb"><img src="images/fulls/learn.io.png" alt="" /></a>
-								<h3>Learn.io</h3>
-								<h3><a href="https://iwanjo.github.io/learn.io/" target="_blank">Click Here</a></h3>
 
-								<p> Learn.io. The premium technological solution to bring books and reading materials to those in need.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/covid.png" class="image fit thumb" ><img src="images/fulls/covid.png" alt="" /></a>
-								<h3>Live Coronavirus Tracker</h3>
-								<h3><a href="https://github.com/iwanjo/Web-Projects/tree/master/src" target="_blank">GitHub Repo</a></h3>
-
-								
-								<p>Live Coronavirus React Project. With an API, I am able to track the novel coronavirus cases worldwide as the statistics come in. </p>
-							</article>
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/foresight.png" class="image fit thumb"><img src="images/fulls/foresight.png" alt="" /></a>
-								<h3>Foresight</h3>
-								<h3><a href="https://iwanjo.github.io/Foresight-Team_I_Z/" target="_blank">Click Here</a></h3>
-								<p>Climate Change has been a silent enemy in Africa since the 1970s. This is Foresight, a digital solution founded to curb the gap in accessibility to relevant data in regards to climate change in Africa.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/reliance.png" class="image fit thumb"><img src="images/fulls/reliance.png" alt="" /></a>
-								<h3>Reliance Music Streaming</h3>
-								<h3><a href="https://github.com/iwanjo/Web-Projects/tree/master/RelianceMusicStreaming" target="_blank">GitHub Repo</a></h3>
-
-								<p>Here is a sample design I made for Reliance - A Music Streaming App, with inspiration from designs of SoundCloud, Deezer and Spotify.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/quizzer-main.png" class="image fit thumb"><img src="images/fulls/quizzer-main.png" alt="" /></a>
-								<h3>Quizzer</h3>
-								<h3><a href="https://github.com/iwanjo/Web-Projects/tree/master/QuizApp" target="_blank">GitHub Repo</a></h3>
-
-								<p>Welcome to Quizzer! This is a sample quiz web app I made with HTML, CSS and JS. One is able to keep track of the points they earn for each question and view their high scores.</p>
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
+							<article class="col-6 col-12-xsmall work-item web">
 								<a href="./images/fulls/foresight-drone.PNG" class="image fit thumb"><img src="images/fulls/foresight-drone.PNG" alt="" /></a>
 								<h3>Foresight Agricultural Drones</h3>
 								<h3><a href="https://iwanjo.github.io/Web-Projects/foresight-drones/" target="_blank">Click Here</a></h3>
 
 								<p>This is a sample website I built based on a startup idea I had for using low-cost drones to accurately measure crop quality and quantity and make informed decision making.</p>
 							</article>
+							
 
-							<article class="col-6 col-12-xsmall work-item">
+							<article class="col-6 col-12-xsmall work-item web">
+								<a href="images/fulls/covid.png" class="image fit thumb" ><img src="images/fulls/covid.png" alt="" /></a>
+								<h3>Live Coronavirus Tracker</h3>
+								<h3><a href="https://github.com/iwanjo/Web-Projects/tree/master/src" target="_blank">GitHub Repo</a></h3>
+
+								
+								<p>Live Coronavirus React Project.</p>
+							</article>
+
+							
+							<article class="col-6 col-12-xsmall work-item web">
+								<a href="images/fulls/foresight.png" class="image fit thumb"><img src="images/fulls/foresight.png" alt="" /></a>
+								<h3>Foresight</h3>
+								<h3><a href="https://iwanjo.github.io/Foresight-Team_I_Z/" target="_blank">Click Here</a></h3>
+								<p>This is Foresight, a digital solution founded to curb the gap in accessibility to relevant data in regards to climate change in Africa.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item web">
+								<a href="images/fulls/reliance.png" class="image fit thumb"><img src="images/fulls/reliance.png" alt="" /></a>
+								<h3>Reliance Music Streaming</h3>
+								<h3><a href="https://github.com/iwanjo/Web-Projects/tree/master/RelianceMusicStreaming" target="_blank">GitHub Repo</a></h3>
+
+								<p>Here is a sample design I made for Reliance - A Music Streaming App, with inspiration from designs of SoundCloud and Deezer</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item web">
+								<a href="images/fulls/quizzer-main.png" class="image fit thumb"><img src="images/fulls/quizzer-main.png" alt="" /></a>
+								<h3>Quizzer</h3>
+								<h3><a href="https://github.com/iwanjo/Web-Projects/tree/master/QuizApp" target="_blank">GitHub Repo</a></h3>
+
+								<p>This is a sample quiz web app I made with HTML, CSS and JS.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item web">
 								<a href="images/fulls/startup-hub.PNG" class="image fit thumb"><img src="images/fulls/startup-hub.PNG" alt="" /></a>
 								<h3>Startup-Hub</h3>
 								<h3><a href="https://iwanjo.github.io/Web-Projects/startup-hub/" target="_blank">Click Here</a></h3>
 
-								<p>This is a new project I made based off of inspiration from Dribbble. It is a platform where users can sign up and apply for jobs at startups, and where startups can post their opportunities. It is designed for the African context.</p>
+								<p>A platform where users can sign up and apply for jobs at startups, and where startups can post their opportunities.</p>
 							</article>
 
-							<article class="col-6 col-12-xsmall work-item">
+							<article class="col-6 col-12-xsmall work-item web">
 								<a href="images/fulls/tilani.png" class="image fit thumb"><img src="images/fulls/tilani.png" alt="" /></a>
 								<h3>Tilani - Omnichannel Retail Platform</h3>
 								<h3><a href="https://tilani.vercel.app/" target="_blank">Click Here</a></h3>
 
-								<p>In this project, I took the real life circumstances with the current COVID-19 Pandemic into mind. More and more businesses are shifting online, so I thought of creating a concept for a retail and commerce platform that allows users to manage their physical stores and online sales from one program. This is the idea of the concept website.</p>
+								<p>A concept for a retail and commerce platform that allows users to manage their physical stores and online sales from one program.</p>
 							</article>
 
-							<article class="col-6 col-12-xsmall work-item">
+							<article class="col-6 col-12-xsmall work-item web">
 								<a href="./images/fulls/vercel1.PNG" class="image fit thumb"><img src="images/fulls/vercel1.PNG" alt="" /></a>
 								<h3>Vercel - Mimic</h3>
 								<h3><a href="https://vercel-mimic.vercel.app/" target="_blank">Click Here</a></h3>
@@ -122,14 +130,52 @@
 								<p>This is a concept idea for an alternative design for Vercel, a web application that easily enables front-end teams to host front-end applications, collaborate and prototype.</p>
 							</article>
 
+							<article class="col-6 col-12-xsmall work-item web">
+								<a href="images/fulls/learn.io.png" class="image fit thumb"><img src="images/fulls/learn.io.png" alt="" /></a>
+								<h3>Learn.io</h3>
+								<h3><a href="https://iwanjo.github.io/learn.io/" target="_blank">Click Here</a></h3>
+
+								<p> Learn.io. The premium technological solution to bring books and reading materials to those in need.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item mobile">
+								<a href="images/fulls/dk-home.jpeg" class="image fit thumb test-popup-link"><img src="images/fulls/dk-home.jpeg" alt=""/></a>
+								<h3>Discover Kenya</h3>
+								<h3><a href="https://github.com/iwanjo/discover-kenya" target="_blank">GitHub Repo</a></h3>
+
+								<!-- <p> Learn.io. The premium technological solution to bring books and reading materials to those in need.</p> -->
+								<p>Discover Kenya allows users to view, upload and share visual content(e.g photos) of Kenya.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item mobile">
+								<a href="images/fulls/furaha.jpeg" class="image fit thumb test-popup-link"><img src="images/fulls/furaha.jpeg" alt=""/></a>
+								<h3>Furaha</h3>
+								<h3><a href="https://github.com/iwanjo/furaha2" target="_blank">GitHub Repo</a></h3>
+
+								<!-- <p> Learn.io. The premium technological solution to bring books and reading materials to those in need.</p> -->
+								<p>Furaha aims to help people who are dealing with stress, anxiety and other adverse effects brought about by the COVID-19 virus, and its side effects through a variety of tools, services, functionalities and self-care content.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item mobile">
+								<a href="images/fulls/dnation.jpeg" class="image fit thumb test-popup-link"><img src="images/fulls/dnation.jpeg" alt=""/></a>
+								<h3>DoughnutNation</h3>
+								<h3><a href="https://github.com/alu-rwa-prog-1/mini-project-1-iwanjo" target="_blank">GitHub Repo</a></h3>
+
+								<!-- <p> Learn.io. The premium technological solution to bring books and reading materials to those in need.</p> -->
+								<p>mock doughnut delivery app with Flutter called DoughnutNation.</p>
+							</article>
+
+							
+
 
 						</div>
 						<ul class="actions">
-							<li><a href="https://github.com/iwanjo?tab=repositories" target="_blank" class="button">Full Portfolio</a></li>
+							<li><a href="https://github.com/iwanjo?tab=repositories" target="_blank" class="button icon solid fa-file">Full Portfolio</a></li>
+							
+							
 						</ul>
 					</section>
 
-				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch With Me</h2>
 						<p>I am looking forward to hearing from you! Feel free to use the contact box to reach with me any type of message that you may have.</p>
@@ -170,8 +216,8 @@
 						</div>
 					</section>
 
-<!-- 				
-					<section id="four">
+				
+					<!-- <section id="four">
 						<h2>Elements</h2>
 
 						<section>
@@ -485,9 +531,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</section>
 
 					</section>
-				 -->
+				
 
-			</div>
+			</div> -->
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -504,11 +550,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</footer>
 
 		<!-- Scripts -->
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<!-- magnific popup script -->
+  <script src="./vendor/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+			<script src="./vendor/isotope/isotope.min.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
